@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Proxenos seal</title>
+<link rel="stylesheet" href="/static/seal.css">
+</head>
+<body>
+<main class="desktop">
+  <section class="win win-launch" aria-labelledby="headline">
+    <div class="titlebar"><span>Proxenos notary — private limits</span><span class="ornaments" aria-hidden="true"><i>_</i><i>×</i></span></div>
+    <div class="pane">
+      <h1 id="headline">Seal your limits</h1>
+      <p class="lead" id="intro">Loading…</p>
+      <p class="ticker">Private limits for one deal side <span class="arrow" aria-hidden="true">▶</span></p>
+    </div>
+  </section>
+
+  <section class="win win-facts" aria-labelledby="facts-title">
+    <div class="titlebar"><span id="facts-title">Deal facts</span><span class="ornaments" aria-hidden="true"><i>_</i><i>×</i></span></div>
+    <dl class="pane monitor">
+      <dt>Deal</dt><dd id="fact-deal">—</dd>
+      <dt>Side</dt><dd id="fact-side">—</dd>
+      <dt>Kind</dt><dd id="fact-kind">—</dd>
+    </dl>
+  </section>
+
+  <section class="win win-error" id="error-win" hidden>
+    <div class="titlebar"><span>Not sealed</span><span class="ornaments" aria-hidden="true"><i>×</i></span></div>
+    <p class="pane" id="error" role="alert"></p>
+  </section>
+
+  <section class="win win-form" id="form-win" hidden aria-labelledby="form-title">
+    <div class="titlebar"><span id="form-title">Seal your limits</span><span class="ornaments" aria-hidden="true"><i>_</i><i>×</i></span></div>
+    <form id="form" class="well" novalidate>
+      <label for="currency">Currency</label>
+      <select id="currency"></select>
+      <div id="fields"></div>
+      <p class="hint">These numbers go to the notary only. Nobody in the chat, including your own agent, sees them.</p>
+      <button type="submit" class="key key-primary">Seal</button>
+    </form>
+  </section>
+
+  <section class="win win-done" id="done" hidden aria-live="polite" aria-labelledby="done-title">
+    <div class="titlebar"><span id="done-title">Your join code</span><span class="ornaments" aria-hidden="true"><i>×</i></span></div>
+    <div class="pane">
+      <h2>Sealed</h2>
+      <p>Your join code, shown only this once:</p>
+      <p id="code" class="well code"></p>
+      <button type="button" id="copy" class="key">Copy code</button>
+      <p class="hint">In your desk room, type <code>@notary join</code> followed by this code.</p>
+    </div>
+  </section>
+</main>
+<script src="/static/seal.js"></script>
+</body>
+</html>
