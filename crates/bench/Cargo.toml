@@ -1,0 +1,24 @@
+[package]
+name = "proxenos-bench"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+proxenos-domain.workspace = true
+proxenos-switch-client.workspace = true
+clap.workspace = true
+futures-util.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+tokio = { workspace = true, features = ["process", "rt-multi-thread", "fs"] }
+
+[dev-dependencies]
+axum.workspace = true
+tokio = { workspace = true, features = ["net"] }
