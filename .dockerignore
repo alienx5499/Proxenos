@@ -1,0 +1,8 @@
+target
+target-*
+.env
+.env.notary
+.env.bench
+*.db
+*.db-*
+*.key

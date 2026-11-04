@@ -1,0 +1,13 @@
+/target
+.env
+.env.notary
+.env.bench
+*.db
+*.db-*
+/target-*
+*.key
+
+# Images live as GitHub attachments, linked from the README
+/docs/img/
+/docs/imgv2/
+.DS_Store
