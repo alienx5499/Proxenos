@@ -1,0 +1,36 @@
+[package]
+name = "proxenos-notary"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "proxenos"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+proxenos-domain.workspace = true
+proxenos-app.workspace = true
+proxenos-switch-client.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+sqlx.workspace = true
+aes-gcm.workspace = true
+ed25519-dalek.workspace = true
+getrandom.workspace = true
+tokio = { workspace = true, features = ["net", "rt-multi-thread", "signal"] }
+axum.workspace = true
+reqwest.workspace = true
+clap.workspace = true
+uuid.workspace = true
+futures-util.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+proxenos-app = { workspace = true, features = ["test-fakes"] }
+tokio = { workspace = true, features = ["rt-multi-thread"] }
+tower.workspace = true
