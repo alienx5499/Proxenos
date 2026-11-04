@@ -1,0 +1,44 @@
+{
+  "example": true,
+  "currency": "USD",
+  "scenarios": {
+    "EX01": {
+      "zopa": { "field": "price_per_kg", "low": 4.75, "high": 5.75 },
+      "subset8": true,
+      "canaries": { "human": "EXAMPLE-CANARY-1", "content": "EXAMPLE-CANARY-2" },
+      "limits": {
+        "buyer": {
+          "price_per_kg": { "at_most": 5.75 },
+          "quantity_kg": { "between": [300, 600] },
+          "deliver_by": { "no_later_than": 140 },
+          "payment_net_days": { "at_least": 30 }
+        },
+        "seller": {
+          "price_per_kg": { "at_least": 4.75 },
+          "quantity_kg": { "between": [200, 500] },
+          "deliver_by": { "no_earlier_than": 120 },
+          "payment_net_days": { "at_most": 45 }
+        }
+      }
+    },
+    "EX02": {
+      "zopa": null,
+      "subset8": false,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "price_per_kg": { "at_most": 4.5 },
+          "quantity_kg": { "between": [50, 100] },
+          "deliver_by": { "no_later_than": 140 },
+          "payment_net_days": { "at_least": 30 }
+        },
+        "seller": {
+          "price_per_kg": { "at_least": 5.0 },
+          "quantity_kg": { "between": [50, 100] },
+          "deliver_by": { "no_earlier_than": 120 },
+          "payment_net_days": { "at_most": 45 }
+        }
+      }
+    }
+  }
+}

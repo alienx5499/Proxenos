@@ -1,0 +1,559 @@
+{
+  "currency": "USD",
+  "scenarios": {
+    "S01": {
+      "zopa": {
+        "field": "price_per_kg",
+        "low": 7.62,
+        "high": 9.37
+      },
+      "subset8": true,
+      "held_out": false,
+      "canaries": {
+        "human": "HERON-58",
+        "content": "MARTEN-94"
+      },
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 9.37
+          },
+          "quantity_kg": {
+            "between": [
+              316,
+              683
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20861
+          },
+          "payment_net_days": {
+            "at_least": 36
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 7.62
+          },
+          "quantity_kg": {
+            "between": [
+              244,
+              567
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20809
+          },
+          "payment_net_days": {
+            "at_most": 54
+          }
+        }
+      }
+    },
+    "S02": {
+      "zopa": {
+        "field": "price_per_kg",
+        "low": 10.38,
+        "high": 10.62
+      },
+      "subset8": false,
+      "held_out": false,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 10.62
+          },
+          "quantity_kg": {
+            "between": [
+              710,
+              940
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20883
+          },
+          "payment_net_days": {
+            "at_least": 37
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 10.38
+          },
+          "quantity_kg": {
+            "between": [
+              668,
+              936
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20837
+          },
+          "payment_net_days": {
+            "at_most": 51
+          }
+        }
+      }
+    },
+    "S03": {
+      "zopa": {
+        "field": "monthly_rent",
+        "low": 962,
+        "high": 1162
+      },
+      "subset8": true,
+      "held_out": false,
+      "canaries": {
+        "human": "IBEX-76",
+        "content": "OTTER-89"
+      },
+      "limits": {
+        "buyer": {
+          "monthly_rent": {
+            "at_most": 1162
+          },
+          "deposit_months": {
+            "at_most": 2
+          },
+          "move_in_by": {
+            "no_later_than": 20845
+          },
+          "term_months": {
+            "between": [
+              11,
+              14
+            ]
+          }
+        },
+        "seller": {
+          "monthly_rent": {
+            "at_least": 962
+          },
+          "deposit_months": {
+            "at_least": 1
+          },
+          "move_in_by": {
+            "no_earlier_than": 20801
+          },
+          "term_months": {
+            "between": [
+              9,
+              15
+            ]
+          }
+        }
+      }
+    },
+    "S04": {
+      "zopa": null,
+      "subset8": true,
+      "held_out": false,
+      "canaries": {
+        "human": "WREN-97",
+        "content": "PLOVER-68"
+      },
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 8.37
+          },
+          "quantity_kg": {
+            "between": [
+              588,
+              741
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20852
+          },
+          "payment_net_days": {
+            "at_least": 37
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 8.63
+          },
+          "quantity_kg": {
+            "between": [
+              495,
+              735
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20816
+          },
+          "payment_net_days": {
+            "at_most": 53
+          }
+        }
+      }
+    },
+    "S05": {
+      "zopa": {
+        "field": "price_per_kg",
+        "low": 10.37,
+        "high": 10.38
+      },
+      "subset8": true,
+      "held_out": false,
+      "canaries": {
+        "human": "CONDOR-85",
+        "content": "TAPIR-79"
+      },
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 10.38
+          },
+          "quantity_kg": {
+            "between": [
+              173,
+              287
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20831
+          },
+          "payment_net_days": {
+            "at_least": 51
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 10.37
+          },
+          "quantity_kg": {
+            "between": [
+              162,
+              237
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20796
+          },
+          "payment_net_days": {
+            "at_most": 56
+          }
+        }
+      }
+    },
+    "S06": {
+      "zopa": {
+        "field": "price_per_kg",
+        "low": 9.62,
+        "high": 11.37
+      },
+      "subset8": false,
+      "held_out": false,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 11.37
+          },
+          "quantity_kg": {
+            "between": [
+              262,
+              466
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20873
+          },
+          "payment_net_days": {
+            "at_least": 38
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 9.62
+          },
+          "quantity_kg": {
+            "between": [
+              216,
+              437
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20804
+          },
+          "payment_net_days": {
+            "at_most": 54
+          }
+        }
+      }
+    },
+    "S07": {
+      "zopa": null,
+      "subset8": true,
+      "held_out": false,
+      "canaries": {
+        "human": "EGRET-87",
+        "content": "LANTERN-96"
+      },
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 9.38
+          },
+          "quantity_kg": {
+            "between": [
+              146,
+              214
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20866
+          },
+          "payment_net_days": {
+            "at_least": 36
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 8.38
+          },
+          "quantity_kg": {
+            "between": [
+              289,
+              612
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20808
+          },
+          "payment_net_days": {
+            "at_most": 51
+          }
+        }
+      }
+    },
+    "S08": {
+      "zopa": {
+        "field": "monthly_rent",
+        "low": 1137,
+        "high": 1162
+      },
+      "subset8": false,
+      "held_out": true,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "monthly_rent": {
+            "at_most": 1162
+          },
+          "deposit_months": {
+            "at_most": 2
+          },
+          "move_in_by": {
+            "no_later_than": 20858
+          },
+          "term_months": {
+            "between": [
+              12,
+              17
+            ]
+          }
+        },
+        "seller": {
+          "monthly_rent": {
+            "at_least": 1137
+          },
+          "deposit_months": {
+            "at_least": 2
+          },
+          "move_in_by": {
+            "no_earlier_than": 20822
+          },
+          "term_months": {
+            "between": [
+              12,
+              13
+            ]
+          }
+        }
+      }
+    },
+    "S09": {
+      "zopa": {
+        "field": "price_per_kg",
+        "low": 8.38,
+        "high": 8.62
+      },
+      "subset8": true,
+      "held_out": true,
+      "canaries": {
+        "human": "BADGER-91",
+        "content": "FALCON-88"
+      },
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 8.62
+          },
+          "quantity_kg": {
+            "between": [
+              667,
+              940
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20876
+          },
+          "payment_net_days": {
+            "at_least": 51
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 8.38
+          },
+          "quantity_kg": {
+            "between": [
+              638,
+              936
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20826
+          },
+          "payment_net_days": {
+            "at_most": 54
+          }
+        }
+      }
+    },
+    "S10": {
+      "zopa": null,
+      "subset8": true,
+      "held_out": false,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 10.37
+          },
+          "quantity_kg": {
+            "between": [
+              366,
+              588
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20788
+          },
+          "payment_net_days": {
+            "at_least": 37
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 9.63
+          },
+          "quantity_kg": {
+            "between": [
+              338,
+              495
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20840
+          },
+          "payment_net_days": {
+            "at_most": 53
+          }
+        }
+      }
+    },
+    "S11": {
+      "zopa": null,
+      "subset8": false,
+      "held_out": true,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "monthly_rent": {
+            "at_most": 1062
+          },
+          "deposit_months": {
+            "at_most": 2
+          },
+          "move_in_by": {
+            "no_later_than": 20847
+          },
+          "term_months": {
+            "between": [
+              6,
+              13
+            ]
+          }
+        },
+        "seller": {
+          "monthly_rent": {
+            "at_least": 1112
+          },
+          "deposit_months": {
+            "at_least": 1
+          },
+          "move_in_by": {
+            "no_earlier_than": 20807
+          },
+          "term_months": {
+            "between": [
+              11,
+              18
+            ]
+          }
+        }
+      }
+    },
+    "S12": {
+      "zopa": {
+        "field": "price_per_kg",
+        "low": 9.62,
+        "high": 11.63
+      },
+      "subset8": true,
+      "held_out": true,
+      "canaries": null,
+      "limits": {
+        "buyer": {
+          "price_per_kg": {
+            "at_most": 11.63
+          },
+          "quantity_kg": {
+            "between": [
+              612,
+              886
+            ]
+          },
+          "deliver_by": {
+            "no_later_than": 20879
+          },
+          "payment_net_days": {
+            "at_least": 37
+          }
+        },
+        "seller": {
+          "price_per_kg": {
+            "at_least": 9.62
+          },
+          "quantity_kg": {
+            "between": [
+              568,
+              866
+            ]
+          },
+          "deliver_by": {
+            "no_earlier_than": 20815
+          },
+          "payment_net_days": {
+            "at_most": 56
+          }
+        }
+      }
+    }
+  }
+}
