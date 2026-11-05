@@ -1,0 +1,31 @@
+# Notary for Tier 2, and the Tier 1 test runner. Switch and Mattermost run from Switch's own
+# compose file and Switch Console on the host; they are not defined here.
+services:
+  notary:
+    build: .
+    image: proxenos
+    # Notary settings only; bench and check secrets stay in .env.bench, outside the container.
+    # Optional so `docker compose run --rm tests` works without one; the notary itself
+    # refuses to start and names every missing variable. Set PROXENOS_PUBLIC_URL there so
+    # seal links point at a reachable host, and PROXENOS_ALLOW_HTTP_GATEWAY=1 to reach an
+    # http Switch on the host through host.docker.internal.
+    env_file: [{ path: .env.notary, required: false }]
+    # Container paths; these win over the same names in .env.notary.
+    environment:
+      PROXENOS_ADDR: 0.0.0.0:8080
+      PROXENOS_DB: /data/proxenos.db
+      PROXENOS_RECEIPT_KEY_FILE: /data/receipt.key
+    ports: ["8080:8080"]
+    volumes: ["proxenos-data:/data"]
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    # No automatic restart: a second notary on the same agent key makes this one exit
+    # (TakenOver), and a restart policy would make the two take the connection in turns.
+    restart: "no"
+
+  tests:
+    build: { context: ., target: tests }
+    image: proxenos-tests
+    profiles: [tests]
+
+volumes:
+  proxenos-data:
