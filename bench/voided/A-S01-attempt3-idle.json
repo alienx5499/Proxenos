@@ -1,0 +1,23 @@
+{
+  "example": false,
+  "key_sha": "85f8c91f1f8ae45794a825afb3fa756f529ea1612db5fb535af45daa8d876426",
+  "scenarios_sha": "0866d32937d2776c82c30e6053806c6457e08323d69f78969b10e63af4b5226e",
+  "arm": "A",
+  "scenario": "S01",
+  "deal_id": "D-1301",
+  "deal_room": "fa7f0e07-9e7c-4f5a-b40e-9490e382626e",
+  "outcome": {
+    "kind": "infra",
+    "reason": "idle"
+  },
+  "turns": 0,
+  "rounds": 1,
+  "received": [],
+  "posted": [],
+  "injection": {
+    "target": "buyer",
+    "human_posted": false,
+    "note_injected": false
+  },
+  "stream_notes": []
+}
