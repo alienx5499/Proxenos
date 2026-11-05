@@ -1,0 +1,174 @@
+[
+ {
+  "arm": "A",
+  "scenario": "S01",
+  "room_group": "D-7001 bench-a-s01",
+  "attempt": 0,
+  "started_utc": "2026-11-04T11:47:14Z",
+  "seconds": 0.0,
+  "record": false,
+  "exit": 1,
+  "error": "scenarios: 12 (seed 7341)\nrun A S01 (attempt 0)\nerror: http: 401 Unauthorized: {\"detail\":\"Not authenticated\"}"
+ },
+ {
+  "arm": "A",
+  "scenario": "S01",
+  "room_group": "D-7002 bench-a-s01",
+  "attempt": 1,
+  "started_utc": "2026-11-04T11:48:09Z",
+  "seconds": 0.0,
+  "record": false,
+  "exit": 1,
+  "error": "scenarios: 12 (seed 7341)\nrun A S01 (attempt 1)\nerror: price_per_kg: 9.37 is not a whole, non-negative amount"
+ },
+ {
+  "arm": "A",
+  "scenario": "S01",
+  "room_group": "D-7003 bench-a-s01",
+  "attempt": 2,
+  "started_utc": "2026-11-04T11:49:44Z",
+  "seconds": 0.5,
+  "record": false,
+  "exit": 1,
+  "error": "scenarios: 12 (seed 7341)\nrun A S01 (attempt 2)\nerror: http: 502 Bad Gateway: {\"error\":\"switch call failed\"}"
+ },
+ {
+  "arm": "A",
+  "scenario": "S01",
+  "room_group": "D-1301 bench-a-s01",
+  "attempt": 3,
+  "started_utc": "2026-11-04T11:50:09Z",
+  "seconds": 600.1,
+  "record": true,
+  "exit": "killed at next run start"
+ },
+ {
+  "arm": "A",
+  "scenario": "S01",
+  "room_group": "D-1401 bench-a-s01",
+  "attempt": 4,
+  "started_utc": "2026-11-04T12:01:40Z",
+  "seconds": null,
+  "record": true,
+  "exit": "runner shell timed out at 580 s; bench ran on unattended, wrote the record at idle (about 17:42 IST), then started A S03 attempt 1, which exited on its own (admit: wrong room group)",
+  "nudged_utc": "2026-11-04T12:01:50Z (approx.)",
+  "note": "deal D-1401: opened and both sealed 12:01:47Z; last notary event 12:02:35Z; idle cap 600 s"
+ },
+ {
+  "arm": "B",
+  "scenario": "S01",
+  "room_group": "D-2001 bench-b-s01",
+  "attempt": 0,
+  "started_utc": "2026-11-04T12:13:04Z",
+  "seconds": 745.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T12:13:08Z"
+ },
+ {
+  "arm": "D",
+  "scenario": "S01",
+  "room_group": "D-4001 bench-d-s01",
+  "attempt": 0,
+  "started_utc": "2026-11-04T12:25:30Z",
+  "seconds": 78.3,
+  "record": true,
+  "exit": "killed at next run start"
+ },
+ {
+  "arm": "A",
+  "scenario": "S03",
+  "room_group": "D-1203 bench-a-s03",
+  "attempt": 2,
+  "started_utc": "2026-11-04T12:26:49Z",
+  "seconds": 645.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T12:26:53Z"
+ },
+ {
+  "arm": "B",
+  "scenario": "S03",
+  "room_group": "D-2103 bench-b-s03",
+  "attempt": 1,
+  "started_utc": "2026-11-04T12:37:35Z",
+  "seconds": 640.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T12:37:39Z"
+ },
+ {
+  "arm": "D",
+  "scenario": "S03",
+  "room_group": "D-4103 bench-d-s03",
+  "attempt": 1,
+  "started_utc": "2026-11-04T12:48:16Z",
+  "seconds": 85.8,
+  "record": true,
+  "exit": "killed at next run start"
+ },
+ {
+  "arm": "A",
+  "scenario": "S04",
+  "room_group": "D-1104 bench-a-s04",
+  "attempt": 1,
+  "started_utc": "2026-11-04T12:49:43Z",
+  "seconds": 645.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T12:49:47Z"
+ },
+ {
+  "arm": "B",
+  "scenario": "S04",
+  "room_group": "D-2104 bench-b-s04",
+  "attempt": 1,
+  "started_utc": "2026-11-04T13:00:29Z",
+  "seconds": 655.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T13:00:33Z"
+ },
+ {
+  "arm": "D",
+  "scenario": "S04",
+  "room_group": "D-4104 bench-d-s04",
+  "attempt": 1,
+  "started_utc": "2026-11-04T13:11:26Z",
+  "seconds": 159.6,
+  "record": true,
+  "exit": "killed at next run start"
+ },
+ {
+  "arm": "A",
+  "scenario": "S05",
+  "room_group": "D-1105 bench-a-s05",
+  "attempt": 1,
+  "started_utc": "2026-11-04T13:14:06Z",
+  "seconds": 700.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T13:14:10Z"
+ },
+ {
+  "arm": "B",
+  "scenario": "S05",
+  "room_group": "D-2105 bench-b-s05",
+  "attempt": 1,
+  "started_utc": "2026-11-04T13:25:47Z",
+  "seconds": 645.1,
+  "record": true,
+  "exit": "killed at next run start",
+  "nudged_utc": "2026-11-04T13:25:51Z"
+ },
+ {
+  "arm": "D",
+  "scenario": "S05",
+  "room_group": "D-4105 bench-d-s05",
+  "attempt": 1,
+  "started_utc": "2026-11-04T13:36:42Z",
+  "seconds": 142.9,
+  "record": true,
+  "exit": "killed at next run start"
+ }
+]

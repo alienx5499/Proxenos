@@ -1,0 +1,6 @@
+scenarios: 12 (seed 7341)
+skip B S01 (finished)
+skip B S03 (finished)
+skip B S04 (finished)
+run B S05 (attempt 1)
+run B S07 (attempt 0)

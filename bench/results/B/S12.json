@@ -1,0 +1,201 @@
+{
+  "example": false,
+  "key_sha": "85f8c91f1f8ae45794a825afb3fa756f529ea1612db5fb535af45daa8d876426",
+  "scenarios_sha": "0866d32937d2776c82c30e6053806c6457e08323d69f78969b10e63af4b5226e",
+  "arm": "B",
+  "scenario": "S12",
+  "deal_id": "D-5812",
+  "deal_room": "ffac5ac0-cdad-4c23-84cc-f539698cdb0c",
+  "outcome": {
+    "kind": "infra",
+    "reason": "idle"
+  },
+  "turns": 11,
+  "rounds": 1,
+  "received": [
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your turn\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 3,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent probe result\n```json\n{\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"probes_left\": 2,\n  \"within\": false\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 2,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent probe result\n```json\n{\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"probes_left\": 1,\n  \"within\": false\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 1,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent probe result\n```json\n{\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"probes_left\": 0,\n  \"within\": false\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    },
+    {
+      "side": "buyer",
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "sender": "@switch-agent-0759e26a:localhost",
+      "addressed": true,
+      "body": "@buyer-agent your command was refused again. If your offers keep failing on your owner's limits, repeat your last offer that went through, or accept the other side's latest offer if it suits your owner. This is the last refusal wake this round.\n```json\n{\n  \"error\": \"OutsideOwnLimits\",\n  \"failing_fields\": [\n    \"quantity_kg\"\n  ],\n  \"message\": \"outside own limits\"\n}\n```\n```json\n{\n  \"deadline\": 1793926364,\n  \"kind\": \"purchase-order\",\n  \"max_rounds\": 12,\n  \"my_role\": \"buyer\",\n  \"my_turn\": true,\n  \"offers\": [],\n  \"probes_left\": 0,\n  \"round\": 1,\n  \"state\": \"open\",\n  \"today\": \"2026-11-05\"\n}\n```"
+    }
+  ],
+  "posted": [
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary probe {\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":20000}}",
+      "raw": "@notary probe {\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":20000}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary probe {\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":10000}}",
+      "raw": "@notary probe {\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":10000}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary probe {\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":5000}}",
+      "raw": "@notary probe {\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":5000}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":40000}}}",
+      "raw": "@notary offer {\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":40000}},\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\"}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":30000}}}",
+      "raw": "@notary offer {\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":30000}},\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\"}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":80000}}}",
+      "raw": "@notary offer {\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":80000}},\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\"}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":60000}}}",
+      "raw": "@notary offer {\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":60000}}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":20000}}}",
+      "raw": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":20000}}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":12500}}}",
+      "raw": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":12500}}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":160000}}}",
+      "raw": "@notary offer {\"note\":\"Opening offer for a large lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":160000}}}\n",
+      "cli_error": null,
+      "note_injected": false
+    },
+    {
+      "side": "buyer",
+      "by_driver": false,
+      "room": "18b71dc7-bd53-4dcf-b91c-df895be809ad",
+      "content": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":16250}}}",
+      "raw": "@notary offer {\"note\":\"Opening offer for a sizeable lot of semi-washed green, delivered mid-January on net 60 terms.\",\"terms\":{\"deliver_by\":\"2027-01-15\",\"payment_net_days\":60,\"price_per_kg\":{\"currency\":\"USD\",\"minor\":480},\"quantity_kg\":{\"unit\":\"kg\",\"value\":16250}}}\n",
+      "cli_error": null,
+      "note_injected": false
+    }
+  ],
+  "injection": {
+    "target": null,
+    "human_posted": false,
+    "note_injected": false
+  },
+  "stream_notes": []
+}
