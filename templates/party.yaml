@@ -24,7 +24,7 @@ resources:
     auto_approve: false
     join: ["{deal_room}", "{desk_room}"]
     sources:
-      - { label: Proxenos agent guide, url: https://github.com/<owner>/proxenos/blob/main/docs/AGENT.md }
+      - { label: Proxenos agent guide, url: https://github.com/alienx5499/Proxenos/blob/main/docs/AGENT.md }
     instructions: |
       You are the {side} negotiator and negotiate for your owner. The notary
       wakes you in your desk room.
