@@ -1,0 +1,47 @@
+{
+ "body": {
+  "bound_at": 1793812915,
+  "deal_id": "D-0301",
+  "kind": "purchase-order",
+  "notary_key": "d3c37cd2ef9de5ee4b5e03033264bfc541eb9ffed901c464d0fa746ae8364321",
+  "parties": [
+   {
+    "owner_id": "@switch-mattermost-fc8f4727-baf8-4c41-b36e-b71eebc2a5fc-asha:localhost",
+    "role": "A"
+   },
+   {
+    "owner_id": "@switch-mattermost-fc8f4727-baf8-4c41-b36e-b71eebc2a5fc-ravi:localhost",
+    "role": "B"
+   }
+  ],
+  "signatures": [
+   {
+    "at": 1793812905,
+    "message_id": "sign-D-0301-buyer-092ef267",
+    "role": "A",
+    "signer": "@switch-mattermost-fc8f4727-baf8-4c41-b36e-b71eebc2a5fc-asha:localhost"
+   },
+   {
+    "at": 1793812915,
+    "message_id": "sign-D-0301-seller-092ef267",
+    "role": "B",
+    "signer": "@switch-mattermost-fc8f4727-baf8-4c41-b36e-b71eebc2a5fc-ravi:localhost"
+   }
+  ],
+  "terms": {
+   "deliver_by": 20784,
+   "kind": "purchase-order",
+   "payment_net_days": 30,
+   "price_per_kg": {
+    "currency": "USD",
+    "minor": 2260
+   },
+   "quantity_kg": {
+    "unit": "kg",
+    "value": 400
+   }
+  },
+  "terms_hash": "092ef2672a1351f545f34082a50482b9eb494122a35fdf4cf5b626461592e8f8"
+ },
+ "signature": "b25fe4c5dcaa367b0d8da6622b9c382168c5b90ef8ef26ea7d14e459f1cc1358df0565bab85dc535e4c4f41570858489e881acbf00c0ad836088be893367330a"
+}
